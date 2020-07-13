@@ -1,4 +1,4 @@
-# day 1 
+# Day 1 
 What is python ? 
 
 Python is interpreted language 
@@ -260,9 +260,45 @@ Writing functions in python :-
 
 def function_name()
 
+# using the functions to read file 
 
 
+===================================================================================
+# Assignment ~ 1 ~ 
+You have the airports.csv 
+using the python you will need  to read all the airport and seperate it and give me the count 
+of the airports of each type 
+Step 1 : 
+Create function that accepts a file name 
+Step 2 : 
+Read the file 
+Step 3 : 
+WHile Each line : 
+    Read the line and 
+    split the row by , 
+Step 4 : 
+    Compare the Value of the aiport_type 
+Step 5: 
+    Add it to the required array 
+Step 6: 
+    Proint the the counts 
 
+import sys 
+sys.argv[0] // the prigram name 
+sys.argv[1] // what ever your parameter 
+
+
+#####################################################################################################
+how to writing functions 
+how to pass parameters to functions default params , keyword params , varargs params , function to functiojn 
+how does a function retunr a function 
+function return types anything function , number
+
+Function Patching (Monkey patches)
+Too much Flexibility in the system makes it more dangerous 
+
+
+##########################################
 
 
 
