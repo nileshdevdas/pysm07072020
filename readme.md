@@ -220,10 +220,10 @@ range
 
 
 --------------------------------------------------------------------------------------
-Day-2 
+# Day-2 
 Python introduction 
 Syntaxes 
-# this is comment in python 
+this is comment in python #
 """ 
     docstring 
 """ 
