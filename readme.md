@@ -439,7 +439,7 @@ Step 5 : now import your package anywhere and call the funtions that you have im
 
 
 |----- parsers 
-           |--- __init__.py  (from .m1 import * ) (from .m2 import *) from (.m3 import *)
+           |--- __init__.py  (from .m1 import p1 as demo_p1 ) (from .m2 import *) from (.m3 import *)
                              (from .writer import *)
            |--- m1.py  // p1 
            |--- m2.py  // p2 
