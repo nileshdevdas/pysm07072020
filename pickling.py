@@ -7,7 +7,8 @@ import pickle
 # # writing the object to the file so that you have all you file state storing object values
 
 # outfile = open('d:/names.ser', 'wb')
-# pickle.dump(name, outfile);
+
+pickle.dump(name, outfile);a
 
 readfile = open('d:/names.ser', 'rb')
 names_from_file = pickle.load(readfile)
