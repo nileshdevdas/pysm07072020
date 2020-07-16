@@ -460,6 +460,434 @@ parsers.p3
 
 
 
+What is exception handling 
+
+try: 
+    allow you to try a piece of code 
+except: 
+     handles the exception block 
+     can be multipl e
+else: 
+    executes if there exception 
+finally: 
+    executes irrespective of anything 
+
+
+raise:  used to raise an exception: 
+
+Then when all together combined we can do flow control on the 
+
+
+What is module and how modules are nothnig files 
+import 
+from xxx import 
+from xxx import a as  y // aliases 
+
+__init__.py which makes it a package 
+the __init__.py is just a  file that represent auto invoke 
+When you import packagexx 
+it acutal refere importing the __init__.py 
+
+The application is straight import hierarchies 
+from .file/package import whatever you want 
+
+
+
+What is a virualenv the requirement for virtual enviroment is to create a  a library bundling for a specific project 
+virtualenv <projectname> allows me to create project specif libraries 
+
+virtualenv abcdemo 
+cd abcdemo\Scripts 
+in the scripts file i have something called activate.bat 
+
+This activator activate my env varible point it to the Lib inside the folder
+
+
+Pycharms automatically createa  virtual invironment the pycharm is be defacto considering that the 
+the python applicatio should alway be the default virutual env 
+
+import sys 
+import os 
+we even after creating a local version of system cores it stillrefers to the the actual libraries 
+but however this is not the case with non system libraries 
+
+
+That a package inside a package we also saw the implementation of the module inside a package 
+when you import package and moudles the script inside these will executes irrespective you want it on not 
+in terms of xxx (Dangling Statments)
+
+We also saw that the package or a module import 
+The cache a pre binary complete interpretation of the file ready to speed every exeucution 
+
+Python is modular because of modules : 
+and python is in the reigh sprit of packages 
+Exectpion handler 
+Virtual Environment
+=====================================================================================================
+
+How to create a Request WebScrapping library 
+
+1. pip install requests 
+2. pip install lxml (optional) 
+3. pip install bs4 ("BeautifulSoup" Version 4 )
+THis could be in your own virtual env:- 
+4. create a new python file 
+    import requests 
+    from bs4 import BeautifulSoup 
+
+    page  = request.get("url" , headers = {'user-agent' : 'xxx'})
+    soup  = BeautifulSoup(markup=page.text , features ='lxml')
+    print(soup.prettify())
+    print(soup.title)
+    element = soup.find("elementname" , {'attname': 'attrvalue'})
+    print(element.text);
+
+=============================================================================================================
+
+smtplib and mail me the information 
+---------------------------------------------------------------------------------------------------------------
+
+
+
+exception handling 
+Modules 
+Packages 
+
+1. WebScraping :-
+2. Email and Sending email Using Python 
+3. math, datetime, os, json , sys 
+3. python path 
+4. regulare expression 
+5. using the smtplib 
+6. pip install requests 
+7. pip isntall lxml 
+
+Now python is functional  and has many many action on it 
+In built libraires 
+pypi 
+
+
+The activities 
+
+Classes : Object 
+
+Classes are Class Files :- 
+1. Let use Class is a prototype 
+    Car 
+
+    class Car: 
+        pass 
+
+2.  A class is more of static holder 
+        state 
+        behviour 
+
+    for every object that you create the class ---> Object --> State and exhibit its own behaviour 
+
+
+Working on the given statement 
+is  Python object Oriented ---> No 
+a) Python is object based python does not support object oriention like the full fledged object oriented progras 
+b) python is object based as it does interface support 
+c) python is object based as it does not support fully polymorphic activities overloading: 
+d) python is object based as it does not support the standards absraction fundamentals but uses special markers for these absractions 
+e) WHat is realy classes doing in the world of Python 
+
+i)  You can create classes for DataStructure seggregation 
+ii) You can create classes for Segregating operational methods 
+iii) you can create classes for forming inheritence  
+iv) you can create classes for exhibiting container ship (One object containing other object) Obeject Graph 
+v)  you can use objects as data object Airport is a class 
+
+oo --> ob 
+
+1. how do i define a class: 
+    class Employee: 
+        pass
+
+
+2.  Can i have a employee have constructor with parameers  
+
+Can a class have a static variable  : Yes 
+Can a class have a static method    : Yes 
+Can a class have a object attribute : Yes 
+Can a class have a object method    : Yes
+can a class have a object Lifectycl : Yes 
+can a class have a psuedo construct : Yes 
+can a class have constructor params : Yes 
+can a class have psudo destructor   : Yes 
+when i print object it automatically call the __str__ method 
+can a class  be inherited           : yes 
+can i do overiding in a class ------: yes 
+can i do overloading                : no 
+can a class be abstract             : yes / no  (not by key word but specia ) 
+can i have interfaces               : no 
+can i have multiple interitence     : no 
+can i have conainer relation ship   : yes 
+am i fully object oriented          : no 
+can one python file contain many classes : yes 
+do need the name of the file to be same as the class name : No 
+is there any naming convention specific for class : no 
+does python have private method     : yes 
+to declare a method a private we need : __methodName this automatially is considered a private
+======================================================================================================================================
+
+
+
+
+
+
+
+1. Can i write a class 
+    class YouClass():
+        pass 
+   is a valid class 
+
+
+2.  can i psudeo 
+        def __init__(self): 
+            constructor 
+
+3.  can i have a descruictor : 
+        def __del__(self): 
+             desctructor 
+
+
+4.  Can i have a  abstact 
+    from abc impor ABC 
+
+    class Demo(ABC): 
+
+        @abstractmethod
+        def xxx():
+            pass 
+
+
+5.  can i have static method 
+
+    class Demo:
+
+        @staticmethod
+        def stat_demo():
+            pass 
+
+6.  Can i have static variable 
+    class Demo: 
+        a= 10 
+        b = 20 
+
+
+    Demo.a 
+    Demo.b 
+
+7.  Can i have Dynamic Object pRoperties 
+    class A:
+       pass 
+
+    a = A()
+    a.username ="xxx" 
+    a.password = "xxxx" 
+
+    Dyanmic Properties 
+
+8.   can i have the implementation inheritence 
+
+    class Employee: 
+        pass; 
+
+    class Manager(Employee):  # here manager is extending the employee 
+         pass;
+  
+    there is issue is that if you write your __init__ method in the constructor form in the Manager class 
+    it will hide the constructor of the Employee unless you explicityly class 
+
+9.   can i dow override 
+    class Employee: 
+        
+        def doit():
+            print("employee doit")
+
+    class Manager(Employee):  # here manager is extending the employee 
+        
+        def doit():
+            super.doit()
+            print("manager doit" )
+
+
+10. yes there is super method to invoke the super class methods 
+
+11. Can i have getter seters in my object : 
+        pip install attrs 
+
+        import attr 
+
+        @attr.s
+        class SomeClass:
+            a - attr.ib(default=0)
+
+    someobj = SomeClass(10)
+
+
+12  there is method name __str__ this is special method that you use the method that will a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
