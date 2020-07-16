@@ -729,6 +729,115 @@ to declare a method a private we need : __methodName this automatially is consid
 
 
 12  there is method name __str__ this is special method that you use the method that will a
+    whenever you either concat or whether you print the object the __str__ is called 
+    provide you own implementation if you wish to have object convenvetions 
+
+13  Can i have public and private method 
+    in a class __methodName is termed as holy (Private)
+    where normal mehtods are without any prefixed os usffied underscore
+
+14. if a object __xx__ then this is system method  
+
+import attr
+
+
+class Airport: 
+
+
+@attr.s
+class Airport: 
+    username = attr.ib(defualt = 10)
+
+
+Airport(username="xxxx")
+
+class HeliPad(Airport):
+    pass
+
+
+Read and Parse each line ---> 
+add the Airport Object in the list 
+
+you need to create 
+
+
+
+                                                                Airport 
+                                            ____________________________________________________________
+                                            |           |              |             |                  |
+                                        HeliPad     SmallAiport     MediumAirport   LargeAirport    OtherAirport
+
+1. attrs 
+2. abstract 
+3. construcotrs 
+5. methods in the the classes 
+6. some static and object level attributes 
+
+read line by line --> Construct an array of the Airport Types :- 
+
+I want you to write you small_airports in seperate fiel 
+i want you write large aiport 
+file = open('filename' , 'wt', 'utf-8')
+
+file.write()
+file.close()
+
+
+airportapp
+    |---------reader
+                |-----
+    |-------- parser 
+                |-----
+    |--------writers 
+                |----
+
+you are going to use pylint 
+
+
+You score of you application 9.
+Unit testing onyour code TDD 
+
+print("This is a example of {} example".format("simple"))
+
+
+-============================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
