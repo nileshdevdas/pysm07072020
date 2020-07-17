@@ -801,6 +801,308 @@ print("This is a example of {} example".format("simple"))
 
 
 -============================================================================================================================================
+Python : 
+python interpreter : python : 
+32 Bit and 64 bit 
+REPL (Read Eval Print Loop )
+Download 
+Python version 2.7 3.x 
+Python documenttion : 
+how to write python .py 
+
+
+
+REPL 
+Interactive 
+Python work any environment 
+Python variable 
+data types  
+    int, floats, boolean , None, strings, we worked list, dict, tuple, set 
+    classes 
+input()
+open()
+print()
+identation 
+if / elif / while / 
+range()
+appendable list 
+dictionatries 
+airports.csv 
+How to work with large data 
+Pickling (Stored)
+Functions 
+function with params 
+function with dynamic params 
+function with name params
+function with positional params 
+functions with kw args params 
+function with function as parameter 
+function with both kw and positional parameter 
+functions with default params 
+function patch (Monkey patching )
+Function is nothing but a vairable (Callable)
+function is purely the extension of the python (builtins)
+function as lambda 
+
+
+modules  
+packages 
+how are pakcage build
+__init__.py 
+we also import modules with import 
+aliasing 
+how we python path 
+how we can create virtual environment 
+how the python file can kept any directory accessed 
+sys.argv 
+
+There webgrabign code (Request api )
+requests and bs4 
+we could use the implement send smptlib 
+sending with attachement with out attachements 
+
+other packages 
+re 
+math 
+datetime
+os 
+sys 
+json 
+zip 
+glob.glob()
+
+date format 
+string format  {} {} {}
+
+classes 
+constructors 
+desctructors 
+str 
+Abstact Base Clases (ABC) 
+@staticmethod 
+class methods 
+object methods 
+How the function Inheritence works 
+how we can super 
+how we make use of Classes and how it object based and not object oriented 
+
+
+Package level document 
+"""
+    documentation 
+""" 
+
+Module level 
+
+method level documentation 
+
+
+import // import at the method level 
+__method_name () private method 
+
+___init__ psuedo constructor 
+
+
+globals()---> Key to you success everything is variable 
+
+
+pylint how we can make use of pylint to score better programming 
+
+sys.side_of_object(object)
+
+We learnt what is pycharm how make of the pycharm 
+pip install 
+pip requirements.txt 
+pip freeze 
+pip list 
+pip uninstall 
+pypi indexing 
+
+
+
+Does Python have a Gui ; Yes Tkinter 
+Does Python have access to web services: requests 
+Does Python have webserver to host webservices : pages : Flask or Django 
+Does Python Support unit Testing : Yes  Pytest 
+Does Python Support Coverage report : Yest Pylint + sonar qube 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Writing large code in appliacation bases 
+
+1. How to debug my code 
+2. how to profile my code 
+3. how to unit test my code 
+4. how to work on generating reports for my code 
+5. tkl/tkc , Flask 
+
+
+
+
+a) How do  i write unit testing : 
+
+Why unit testing :- 
+How much is project :- 
+Show Me:- Excel
+Where is number : gut of the developer : 
+What IS TDD : Test Driven Development 
+I had written on day one all the test cases and built a test harness 
+1. The person who writes the test understand what to be written 
+    Assertive programming and not assumtive program
+2. Because you write test cases you have an advantage of using the test as impact analysis 
+3. You bound to get a coverage report Code Quality static and dynamic : 
+4. Yesterday my total time the test ran for 4 hrs today ran for 14 hrs 
+5. Dashboards or report or reality , data points or the real picture 
+6. Trust You test cases  is goin test test test test test the peice code 
+7. Automation :- Future proof 
+8. Devops ready and it makes really agile 
+---------------------------------------------------------------------------------------------------------------------
+python i can do  unit testing 
+
+Step 1 : You will need to install 
+    pip install pytest 
+
+
+Step 2:  your test files should always have a name : 
+        test_login.py
+
+Step 3 : Every test function 
+
+            def test_username():
+            
+
+
+
+
+
+
+
+
+python i can do  automation testing (Selenium )
+
+
+
+
+Flask for Deliverying webservice 
+Tkinter to display thick ui 
+Django MVC 
+Mails 
+WebScraping 
+Selenium
+Json 
+----------------------------------------------------------------------------------------
+Datasciene:- 
+SciPy
+Pandas  (Convert Data in to Tabular form )
+seabornec
+Machine Learning / Training 
+=======================================================================================
+
+Web Applications 
+Angular + Flask = Full Stack 
+Django For python 
+=========================================================================================
+Automation : 
+Devops 
+Build AUtomation 
+Testing Automation 
+RPA (Robotic Process Automation)
+=========================================================================================
+
+nilesh.devdas@outlook.com  /// Skype
+
+nilesh.devdas@vinsys.com  /// official id 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
